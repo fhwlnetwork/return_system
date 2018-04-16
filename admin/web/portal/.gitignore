@@ -1,0 +1,5 @@
+!/srun_portal_pc_airport-basic
+!/srun_portal_pc_hotel-basic
+!/srun_portal_mobile_hotel-basic
+auth_action.php
+head.php

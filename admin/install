@@ -1,0 +1,8 @@
+#!/bin/sh
+chmod -R 777 /srun3/www/srun4-mgr/center/runtime
+chmod -R 777 /srun3/www/srun4-mgr/console/runtime
+chmod -R 777 /srun3/www/srun4-mgr/data
+chmod -R 777 /srun3/www/srun4-mgr/web/assets
+chmod -R 777 /srun3/www/srun4-mgr/web/ueditor
+chmod -R 777 /srun3/www/srun4-mgr/web/uploads
+chmod 755 /srun3/www/srun4-mgr/yii

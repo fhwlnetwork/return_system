@@ -1,0 +1,89 @@
+/* css reset */
+* {
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f40;
+}
+
+img, a img {
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong, th {
+    font-weight: normal;
+}
+
+i, em {
+    font-style: normal;
+}
+
+/* pagination  */
+.pagination-nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pagination-nav a, .pagination-nav span.current, .pagination-nav .pag-form .btn {
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font: 14px/1.8em 微软雅黑;
+}
+
+.pagination-nav a:hover, .pagination-nav span.current {
+    color: #fff;
+    background-color: #900;
+}
+
+.pagination-nav .pag-form {
+    display: inline-block;
+}
+
+.pagination-nav .pag-form input {
+    text-align: center;
+    width: 31px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font: 14px/1.8em 微软雅黑;
+}
+
+.pagination-nav .pag-form .btn-null {
+    width: 50px;
+}
+
+.pagination-nav .pag-form .btn-submit {
+    width: 50px;
+    cursor: pointer;
+}
+
+.pagination-nav .pag-form .btn-submit:hover {
+    background-color: #9a0000;
+}
